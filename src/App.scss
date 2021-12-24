@@ -1,0 +1,173 @@
+$menu-name-font-size: 2em;
+$page-background-color: #f5f5f5;
+$color-black: #000000;
+$color-white: #ffffff;
+$color-gray: #292929;
+$color-lightgray: #525151;
+$color-deepred:#C90000;
+$font-bold: bold;
+
+.App {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.background-color-gray {
+  background-color: $page-background-color;
+}
+
+.background-color-white {
+  background-color: #ffffff;
+}
+
+//font
+.font-red {
+  color: #ff0000;
+}
+
+.font-bold {
+  font-weight: $font-bold;
+}
+
+.font-bold-900 {
+  font-weight: 900;
+}
+
+.font-07 {
+  font-size: 0.7em;
+}
+
+.font-1H {
+  font-size: 1.5em;
+}
+
+.font-2 {
+  font-size: 2em;
+}
+
+.font-color-bl {
+  color: $color-black;
+}
+
+.font-color-white {
+  color: $color-white;
+}
+
+.font-color-gray {
+  color: $color-gray;
+}
+
+.font-color-lightgray {
+  color: $color-lightgray;
+}
+
+.font-color-deepred {
+  color: $color-deepred;
+}
+
+.font-color-deepgray {
+  color: #000005;
+}
+
+//menu
+.menu-name {
+  font-size: $menu-name-font-size;
+  font-weight: $font-bold;
+  margin-bottom: 70px;
+}
+
+.menu-name:after {
+  content: "";
+  display: block;
+  width: 100px;
+  border-bottom: 2px solid $color-deepred;
+  margin: 10px auto;
+}
+
+//icon
+.icon-size {
+  font-size: 4em;
+}
+
+.icon-size-1e {
+  font-size: 1em;
+}
+
+.icon-color {
+  color: #000000;
+}
+
+//padding
+.padding-top-btm-1e {
+  padding: 1em 0;
+}
+
+.padding-top-btm-5e {
+  padding: 5em 0;
+}
+
+.padding-left-right-1e {
+  padding: 0 1em;
+}
+
+//margin
+.margin-top-05e {
+  margin-top:0.5em;
+}
+
+.margin-top-3e {
+  margin-top: 3em;
+}
+
+.margin-top-15e {
+  margin-top: 1.5em;
+}
+
+//line
+.line {
+  border-color: $color-lightgray;
+  border-style: dashed;
+  border-width: thin;
+  margin: 20px 0;
+}
+
+.MuiTabs-indicator {
+  display: none;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.under-display-none {
+  text-decoration: none;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.bottom-line-small {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: solid 1px #f5f5f5;
+}
+
+.bottom-line {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border: solid 1px #f5f5f5;
+}
+
+.col-1 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.word-break-al {white-space: pre-wrap;}

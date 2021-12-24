@@ -1,0 +1,55 @@
+$font-bold : bold;
+$main-img-height : 50px;
+$main-img-width : 50px;
+$main-title-bold : 700;
+$main-img-margin : 200px;
+$main-menu-margin : 12px;
+
+.mainImg {
+  height: $main-img-height;
+  width: $main-img-width;
+}
+
+.mainTitle {
+  font-weight: $main-title-bold;
+}
+
+.nav {
+  background-color: #fff;
+  font-weight: $font-bold;
+
+  .navbar-collapse {
+    @media screen and (min-width : 1001px){
+      position:absolute;
+      left: 50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+    }
+    @media screen and (min-width : 769px) and (max-width : 1000px){
+      position:absolute;
+      left: 50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+    }
+    @media screen and (min-width : 768px) {
+      position:absolute;
+      left: 50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+    } 
+    .navbar-ul {
+      @media screen and (min-width : 1201px){
+        width: 600px;
+      }
+      @media screen and (min-width : 769px) and (max-width : 1200px){
+        width: 500px;
+      }
+      @media screen and (min-width : 768px){
+        width: 500px;
+      }
+      .navItem {
+        width: 100%;
+      }
+    }
+  }
+}
